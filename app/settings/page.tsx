@@ -9,11 +9,11 @@ export default function SettingsPage() {
         <div className="flex items-center space-x-4">
           <Avatar className="h-20 w-20">
             <AvatarImage src="/placeholder-avatar.jpg" alt="User avatar" />
-            <AvatarFallback>JD</AvatarFallback>
+            <AvatarFallback>MR</AvatarFallback>
           </Avatar>
           <div>
-            <h2 className="text-2xl font-bold">John Doe</h2>
-            <p className="text-muted-foreground">john.doe@example.com</p>
+            <h2 className="text-2xl font-bold">Mandy Ronald</h2>
+            <p className="text-muted-foreground">mandyronald@example.com</p>
           </div>
         </div>
         <Button variant="outline">Change Avatar</Button>
